@@ -9,5 +9,7 @@ export class AppComponent {
   title = 'userLogin';
 
   user?: string;
+
+  pass?: string;
   
 }
