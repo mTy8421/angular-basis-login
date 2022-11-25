@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SetUIModule } from './set-ui/set-ui.module';
 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SetUIModule } from './set-ui/set-ui.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     SetUIModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
