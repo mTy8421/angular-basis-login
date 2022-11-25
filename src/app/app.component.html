@@ -7,15 +7,25 @@
                 <mat-icon>login</mat-icon>
             </h1>
             <hr>
-
-            <mat-form-field class="example-form-field text-xl">
-                <mat-label>User Name</mat-label>
-                <input matInput type="text" [(ngModel)]="user">
-                <button *ngIf="user" matSuffix mat-icon-button aria-label="Clear" (click)="user=''">
-                    <mat-icon>close</mat-icon>
-                </button>
-            </mat-form-field>
-
+                <div>
+                    <mat-form-field class="example-form-field text-xl">
+                        <mat-label>User Name</mat-label>
+                        <input matInput type="text" [(ngModel)]="user">
+                        <button *ngIf="user" matSuffix mat-icon-button aria-label="Clear" (click)="user=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field class="example-form-field text-xl">
+                        <mat-label>Passworld</mat-label>
+                        <input matInput type="text" [(ngModel)]="user">
+                        <button *ngIf="user" matSuffix mat-icon-button aria-label="Clear" (click)="user=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                </div>
+                <button mat-raised-button color="primary">Submit</button>
         </mat-card-content>
     </mat-card>
 </div>
